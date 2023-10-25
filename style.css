@@ -10,6 +10,7 @@ body {
 .card {
   max-width: Min(600px, 80vw);
   padding: 20px;
+  margin: 15px 0;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
