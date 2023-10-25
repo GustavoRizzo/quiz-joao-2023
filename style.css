@@ -1,13 +1,21 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  display: grid;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
 .card {
-  max-width: 600px;
+  max-width: Min(600px, 80vw);
   padding: 20px;
-  margin: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
+}
+
+.card_img {
+  width: -webkit-fill-available;
+  width: -moz-available;
 }
 
 .hidden {
