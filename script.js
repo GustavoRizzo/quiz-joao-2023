@@ -1,8 +1,8 @@
 function verificarResposta(cardAtual, resposta, cardSeguinte) {
 
     var card = document.getElementById(cardAtual);
-    var respostaUsuario = card.querySelector("input").value.toLowerCase();
-    if (respostaUsuario === resposta) {
+    var answer = card.querySelector(".answer").value.toLowerCase();
+    if (answer === resposta) {
         // show next card
         document.getElementById(cardSeguinte).classList.remove("hidden");
         // show tip

@@ -2,22 +2,49 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
+
 <body>
+
+    <!-- Card 1 -->
     <div class="card" id="q1">
-      <h2 class="card_title">Charada 1:</h2>
-      <p class="card_text-quation" >Na vastidão do cosmos, onde o Sol brilha com fervor, <br>Qual planeta, João, exala um brilho intenso e fulgor? <br>Entre órbitas e estrelas, qual deles é o mais vibrante, <br>Com seu manto de gases, tão majestoso e fascinante?</p>
-      <input type="text" id="res-q1">
-      <button onclick="verificarResposta('q1', 'mercurio', 'q2')">Verificar</button>
-      <div class="card_tip hidden">
-        <p class="card_text-tip">Dica: O planeta mais próximo do Sol</p>
-      </div>
-    </div>
-  
-    <div class="card hidden" id="q2">
-        <h2>Charada 2:</h2>
-        <p>Qual é a capital da França?</p>
-        <input type="text" id="res-q2">
-        <button onclick="verificarResposta('q2', 'paris', 'q3')">Verificar</button>
+        <h2 class="card_title">Charada 1:</h2>
+        <p class="card_text-question">Na vastidão do cosmos, onde o Sol brilha com fervor, <br>Qual planeta, João, exala
+            um brilho intenso e fulgor? <br>Entre órbitas e estrelas, qual deles é o mais vibrante, <br>Com seu manto de
+            gases, tão majestoso e fascinante?</p>
+        <input type="text" id="res-q1" class="answer">
+        <button onclick="verificarResposta('q1', 'mercurio', 'q2')">Verificar</button>
+        <div class="card_tip hidden">
+            <p class="card_text-tip">Exato 👍, pista para o tesouro: O seu presente não está em Mercúrio, ele está na
+                Terra. Afinal, como poderia estar em Mercúrio?</p>
+        </div>
     </div>
 
-  </body>
+    <!-- Card 2 -->
+    <div class="card hidden" id="q2">
+        <h2 class="card_title">Charada 2:</h2>
+        <p class="card_text-question">Na vastidão do cosmos, onde o Sol brilha com fervor, <br>Qual planeta, João, exala
+            um brilho intenso e fulgor? <br>Entre órbitas e estrelas, qual deles é o mais vibrante, <br>Com seu manto de
+            gases, tão majestoso e fascinante?</p>
+        <input type="text" class="answer">
+        <button onclick="verificarResposta('q2', 'mercurio', 'q3')">Verificar</button>
+        <div class="card_tip hidden">
+            <p class="card_text-tip">Exato 👍, pista para o tesouro: O seu presente não está em Mercúrio, ele está na
+                Terra. Afinal, como poderia estar em Mercúrio?</p>
+        </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card hidden" id="q3">
+        <h2 class="card_title">Charada 3:</h2>
+        <p class="card_text-question">Na vastidão do cosmos, onde o Sol brilha com fervor, <br>Qual planeta, João, exala
+            um brilho intenso e fulgor? <br>Entre órbitas e estrelas, qual deles é o mais vibrante, <br>Com seu manto de
+            gases, tão majestoso e fascinante?</p>
+        <input type="text" class="answer">
+        <button onclick="verificarResposta('q3', 'mercurio', 'q4')">Verificar</button>
+        <div class="card_tip hidden">
+            <p class="card_text-tip">Exato 👍, pista para o tesouro: O seu presente não está em Mercúrio, ele está na
+                Terra. Afinal, como poderia estar em Mercúrio?</p>
+        </div>
+    </div>
+
+</body>
