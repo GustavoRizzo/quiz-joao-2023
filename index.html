@@ -4,14 +4,20 @@
 </head>
 <body>
     <div class="card" id="q1">
-      <h2>Pergunta:</h2>
-      <p>Qual é a capital da França?</p>
+      <h2 class="card_title">Charada 1:</h2>
+      <p class="card_text-quation" >Na vastidão do cosmos, onde o Sol brilha com fervor, <br>Qual planeta, João, exala um brilho intenso e fulgor? <br>Entre órbitas e estrelas, qual deles é o mais vibrante, <br>Com seu manto de gases, tão majestoso e fascinante?</p>
       <input type="text" id="res-q1">
-      <button onclick="verificarResposta('q1', 'paris', 'q2')">Verificar</button>
+      <button onclick="verificarResposta('q1', 'mercurio', 'q2')">Verificar</button>
+      <div class="card_tip hidden">
+        <p class="card_text-tip">Dica: O planeta mais próximo do Sol</p>
+      </div>
     </div>
   
     <div class="card hidden" id="q2">
-      <h2>Resposta Correta!</h2>
-      <p>A capital da França é Paris.</p>
+        <h2>Charada 2:</h2>
+        <p>Qual é a capital da França?</p>
+        <input type="text" id="res-q2">
+        <button onclick="verificarResposta('q2', 'paris', 'q3')">Verificar</button>
     </div>
+
   </body>
